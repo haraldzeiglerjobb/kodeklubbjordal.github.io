@@ -8,5 +8,15 @@ p {
 h1 {
 }
 
-div {
+.topMenu{
+	display: grid;
+	grid-auto-flow: column;
+	grid-gap: 10px;
+    padding: 10px;
+    border: 10px;
+    border-style: solid;
+    border-color: green;
+    background-color: grey;
+    color: darkblue;
+    font-size: 18px;   
 }
